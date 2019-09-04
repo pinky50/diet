@@ -1,0 +1,509 @@
+/* global start*/
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+}
+ul,ol{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+li{
+	list-style: none;
+	
+}
+/* global end*/
+
+/*header*/
+.header{
+	background: url(../images/wood-bg.jpg);
+	/*height: 150px;*/
+	background-repeat: no-repeat;
+}
+.header-inner-left{
+	float: right;
+}
+.header-inner-right{
+	float: right;
+	font-size: 18px;
+	padding-top: 15px;
+	color: #1DC7D5;
+	font-weight: bold;
+}
+.header-inner-right:hover{
+	color:#3BC96C;
+}
+.header-inner-bottom-content h4{
+	max-width: 9070px;
+	margin: 0 auto;
+	color: #707070;
+	padding-top: 20px;
+	font-weight: bold;
+	font-family: Oswald,sans-serif;
+}
+.header-inner-bottom-content h4 span{
+	color:#3BC96C;
+}
+/*header end*/
+
+/*banner*/
+.banner{
+	background: url(../images/man-woman-video.jpg);
+	height: 500px;
+	background-position: center;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+.banner-content{ 
+	margin-top: 20px;
+ }
+.banner-content p{
+	background: #56CED6;
+	padding: 10px 0px 10px 0px;
+	color: white;
+	font-size: 13px;
+	max-width: 700px;
+	margin:0 auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-style:italic;
+
+}
+/*banner end*/
+
+/*success stories*/
+.success-stories-content h1{
+	color: #32c364;;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.success-stories-content p{
+	font-size: 20px;
+	color: #262625;
+}
+.success-stories-content p span{
+	color: #04ADC7;
+}
+
+/*success stories end*/
+
+/*testimonial-content*/
+.testimonial-content{
+	background: #fafafa;
+	border: 3px solid #ebeaea;
+	padding: 66px 53px 25px;
+	position: relative;
+	margin-top: 60px;
+}
+.testimonial-content img{
+	border-radius: 50%;
+	/*position: absolute;*/
+	top: -53px;
+	left: 46%;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+.testimonial-content h2{
+	padding-bottom: 20px;
+}
+.testimonial-content p{
+	 color:#626261;
+	 font-size: 16px;
+
+}
+/*testimonial end*/
+
+/*after-before*/
+.after-before{
+	background-image: url(../images/woman.jpg);
+	background-position: center;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.after-before img{
+	padding-top: 50px;
+}
+.after-before-right{
+	float: right;
+	padding-top: 120px;
+}
+.text{
+	font-size: 29px;
+	color: #fff;
+}
+/*after-before end*/
+
+/************
+	dieat-list css start here
+************/
+.dieat-lists{
+	padding: 60px 0px;
+}
+.diet-bg{
+	background-image: url(../images/yellow-b.png);
+	background-size: cover;
+	padding: 40px 0px;
+	border: 3px solid #95e9b2;
+}
+.header_diet{}
+.header_diet h2{
+	font-size: 31px;
+	text-align: center;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	line-height: 42px;
+}
+.header_diet h2 span strong{
+	color: #1dc7d5;
+}
+.header_diet h2 .da{
+	color: #32c364 !important;
+}
+.dieat-list{}
+.dieat-list ul{}
+.dieat-list ul li{
+	font-size: 21px;
+	color: rgb(58, 58, 57);
+	display: table;
+	margin-bottom: 20px;
+}
+.dieat-list ul li span{
+	
+}
+.dieat-list ul li span i{
+	color: #3bc96c;
+	margin-right: 10px;
+
+}
+
+
+/************
+	image-one css start here
+************/
+.image-one{
+	padding: 40px 0px 80px;
+}
+.images-iteams{
+
+}
+.image0iteam{}
+.image0iteam img{}
+.image-one p{
+	padding-top: 30px;
+	color: #a9a7a7;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+/************
+	book heading css start here
+************/
+.book-heading{}
+.book-heading h2{
+	color: #1dc7d5;
+	font-family: Oswald,sans-serif;
+	font-size: 29px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+/************
+	book one css start here
+************/
+.book-one{
+	
+}
+.book-one .container{
+	background-color: #fff;
+	border: 3px solid #ebeaea;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../images/book-1-bg.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/*.book-one .container1{
+	background-image: url(../images/book-2-bg.jpg);
+	background-position: right;
+}*/
+.book-two .container{
+	background-color: #fff;
+	border: 3px solid #ebeaea;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../images/book-2-bg.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.book-three .container{
+	background-color: #fff;
+	border: 3px solid #ebeaea;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../images/book-3-bg.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.book-four .container{
+	background-color: #fff;
+	border: 3px solid #ebeaea;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../images/book-4-bg.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.book-left{
+
+}
+.book-left img{
+	padding-top: 60px;
+	padding-left: 60px;
+}
+.book-right{
+	padding: 66px 53px 25px;
+
+}
+.book-right h3{
+	color: #1dc7d5;
+    font-family: Oswald,sans-serif;
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.book-right span b{
+	font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    text-align: left;
+}
+.book-right p{
+	font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    text-align: left;
+}
+.book-right p b{}
+.book-des{}
+.book-des ul{}
+.book-des ul li{
+		font-size: 16px;
+	    margin-bottom: 20px;
+	    line-height: 1.6em;
+	    text-align: left;
+}
+.book-des ul li a{}
+/************
+	content-one css start here
+************/
+.content-one{
+	color: #fff;
+	/*margin-top: 50px;*/
+	/*padding: 110px 0 100px;*/
+	background-image: url(../images/man-woman.jpg);
+	background-position: center;
+	/*background-color: #7fd5dc;*/
+	background-size: auto 100%;
+}
+.content-content{}
+.content-content h2{
+	font-weight: 700;
+	margin-bottom: 40px;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+	color: #fff;
+}
+.content-content h3{
+	background: #32C364;
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+.content-content p{
+	font-size: 29px;
+	color: white;
+	padding-bottom: 150px;
+}
+.content-content p a{
+	color: white;
+	text-decoration:underline;
+}
+.content-content p a:hover{
+	text-decoration: none;
+}
+/************
+	book-two css start here
+************/
+.book-two{
+	/*background-image: url(../images/book-2-bg.jpg);*/
+}
+.booktwo-left{}
+.booktwo-left img{
+	padding-top: 80px;
+	padding-right: 80px;
+}
+.booktwo-right{}
+.booktwo-right p{}
+.booktwo-right p b{}
+.booktwo-right p a{}
+
+
+
+/*creator-description*/
+.creator-description{
+	padding-top: 100px;
+}
+.creator-description-left img{
+	padding-left: 30px;
+}
+.creator-description-right p{
+	font-size: 18px;
+
+}
+/*creator-description*/
+/************
+	certificate css start here
+************/
+.certificate{
+	
+}
+.certificate-content{
+	background: url(../images/document.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 100% 100%;
+    border: 15px solid #fff;
+    box-shadow: 0 0 0 3px #ebeaea;
+    text-align: center;
+    /*position: relative;*/
+    padding: 100px 50px 20px;
+    margin-top: 100px;
+    max-width: 1023px;
+    min-height: 323px;
+}
+}
+.certificate-content img{
+	text-align: center;
+}
+.certificate-content h4{
+	font-size: 48px;
+	color: #d34342;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.certificate-content p{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/*clints*/
+.clients{
+
+}
+.clients-inner{
+	/*padding:200px 0px;*/
+	margin-top: 50px;
+}
+.clients-inner img{
+	padding-bottom: 100px;
+
+}
+.clients-inner p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+/*clients*/
+/************
+	monyback css start here
+************/
+.monyback{
+	padding-bottom: 50px;
+}
+.monyback-inner{
+	background: url(images/yellow-b.png);
+	
+}
+.monyback-left img{
+	padding-left: 80px;
+}
+.monyback-right{}
+.monyback-right h3{
+	padding-top: 20px;
+	color: #e71103;
+	font-family: Oswald,sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+	text-align: left;
+	padding-bottom: 20px; 
+}
+.monyback-right p{
+	font-size: 22px;
+}
+
+
+/*what-you-need-left*/
+.what-you-need-left p{
+	font-size: 18px;
+}
+/*what-you-need-left*/
+/************
+	addto-cart css start here
+************/
+.addto-cart{}
+.addd-content{}
+.addd-content img{}
+.addd-content h4{}
+.addd-content .green{}
+.addd-content .red{}
+.addd-content a{}
+/************
+	footer-one css start here
+************/
+.footer-one{}
+.footer-one-content{}
+.footer-one-content a{}
+.footer-one-content img{}
+.footer-one-content p{}
+.footer-one-content p b{}
+/************
+	footer-two css start here
+************/
+.footer-two{}
+.footer-content-two{}
+.footer-content-two p{}
+.footer-content-two p small{}
+.footer-content-bottom{}
+.footer-content-bottom ul{}
+.footer-content-bottom ul li{}
+.footer-content-bottom ul li a{}
